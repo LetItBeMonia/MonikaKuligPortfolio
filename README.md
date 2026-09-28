@@ -4,7 +4,7 @@ A single-page website made with React and JavaScript.
 Visit deployed website here: <a target="_blank" href="https://monika-kulig.vercel.app">monika-kulig.vercel.app<a/>
 
 ## ⌨️ Technologies
-`HTML`  `CSS`  `Tailwind`  `JavaScript`  `React.js` `Vite`
+`HTML`  `CSS`  `Tailwind`  `JavaScript`  `React.js` `vite`
 
 ## 🚀 Features
 - Page navigation
