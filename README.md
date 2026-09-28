@@ -7,7 +7,9 @@ Visit deployed portfolio here: <a target="_blank" href="https://monika-kulig.ver
 `HTML`  `CSS`  `Tailwind`  `JavaScript`  `React.js` `Vite`
 
 ## 🚀 Features
-- Downloading CV PDF file
+- Page navigation
+- Hero section showcasing my programming summary
+- A section for showcasing my programming projects in a nutshell
 - Email contact form
 
 ## 📖 Implemented concepts
