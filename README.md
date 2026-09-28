@@ -1,17 +1,19 @@
-# My Full-Stack Web App Developer Portfolio
-A single-page website.
+# </> My Full-Stack Web Developer Portfolio
+A single-page website made with React and JavaScript.
 
 Visit my portfolio here: <a target="_blank" href="https://monika-kulig.vercel.app">monika-kulig.vercel.app<a/>
 
-## Tech-stack used to create the app:
-HTML  |  CSS  |  Tailwind  |  JavaScript  |  React.js  | Vite
+## ⌨️ Technologies
+`HTML`  `CSS`  `Tailwind`  `JavaScript`  `React.js` `Vite`
 
-## Functionalities:
+## 🚀 Features
 - Downloading CV PDF file
 - Email contact form
 
-## Technologies and concepts used:
+## 📖 Implemented concepts
 - UI design
 - responsiveness
 - interactivity
 - CSS animations
+
+## 🔍 Website Overview
