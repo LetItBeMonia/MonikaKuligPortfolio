@@ -66,11 +66,11 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Monika Kulig — a software engineer with 1.5+ years of
-                experience in coding. I primarly specialize in JavaScript
+                Hi, I'm Monika Kulig - a software engineer with first hands-on
+                commercial experience. I primarly specialize in JavaScript
                 technologies such as React, TypeScript and Node.js. I build
                 scalable and responsive full-stack web applications with great
-                attention to little details.
+                attention to smallest details.
               </p>
             </div>
 
@@ -144,12 +144,12 @@ export const Hero = () => {
                   </div>
                 </div>
                 {/* Stats Badge */} {/* animate-float animation-delay-500 */}
-                <div className="absolute -top-1 -left-1 glass rounded-xl px-4 py-3">
-                  <div className="text-2xl font-bold text-primary">1.5+</div>
+                {/* <div className="absolute -top-1 -left-1 glass rounded-xl px-4 py-3">
+                  <div className="text-2xl font-bold text-primary">...</div>
                   <div className="text-xs text-muted-foreground">
-                    Years Exp.
+                    ...
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
