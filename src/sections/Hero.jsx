@@ -84,7 +84,10 @@ export const Hero = () => {
               {/* Animated SVG Button */}
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-                <a href="https://monika-kulig-cv.vercel.app" target="_blank">
+                <a
+                  href="https://monika-kulig-resume.vercel.app"
+                  target="_blank"
+                >
                   Download CV
                 </a>
               </AnimatedBorderButton>
