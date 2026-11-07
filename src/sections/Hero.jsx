@@ -9,10 +9,12 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton.jsx";
 import { Download } from "lucide-react";
 import { BgDots } from "@/components/BgDots.jsx";
+import profile_photo_img from "@/assets/profile-photo.jpg";
 
 const skills = [
   { name: "React", icon: <FaReact className="w-15 h-15" /> },
   { name: "TypeScript", icon: <BiLogoTypescript className="w-15 h-15" /> },
+  { name: "JavaScript", icon: <IoLogoJavascript className="w-13 h-15" /> },
   { name: "Node.js", icon: <DiNodejs className="w-15 h-15" /> },
   { name: "MongoDB", icon: <SiMongodb className="w-15 h-15" /> },
   { name: "SQL", icon: <SiMysql className="w-15 h-15" /> },
@@ -71,6 +73,12 @@ export const Hero = () => {
                 technologies such as React, TypeScript and Node.js. I build
                 scalable and responsive full-stack web applications with great
                 attention to smallest details.
+                {/* Hi, I'm Monika Kulig - a software engineer with hands-on
+                commercial experience and 2+ years of programming experience in general. 
+                I primarly specialize in JavaScript
+                technologies such as React, TypeScript and Node.js. I build
+                scalable and responsive full-stack web applications with great
+                attention to smallest details. */}
               </p>
             </div>
 
@@ -129,7 +137,7 @@ export const Hero = () => {
                 {" "}
                 <div className="relative rounded-full">
                   <img
-                    src="/profile-photo.jpg"
+                    src={profile_photo_img}
                     alt="Monika Kulig"
                     className="w-full aspect-4/5 object-cover rounded-full "
                   />

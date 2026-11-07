@@ -1,13 +1,16 @@
 import { ArrowUpRight } from "lucide-react";
 import { FiGithub } from "react-icons/fi";
-import { AnimatedBorderButton } from "@/components/AnimatedBorderButton.jsx";
+import next_project_img from "../assets/projects/project-next-project.jpg";
+import dev_portfolio_img from "../assets/projects/project-dev-portfolio.jpg";
+import calculator_img from "../assets/projects/project-calculator.jpg";
+import company_catalog_img from "../assets/projects/project-company-catalog.jpg";
 
 const projects = [
   {
     title: "Coming soon...",
-    description: "Next.js + Typescript project.",
-    image: "/projects/project-next-project.jpg",
-    tags: ["Next.js", "TypeScript"],
+    description: "Archery e-commerce application with CMS system.",
+    image: next_project_img,
+    tags: ["React.js", "JavaScript", "Node.js", "SCSS"],
     link: "#",
     github: "#",
   },
@@ -15,16 +18,25 @@ const projects = [
     title: "The Portfolio Itself",
     description:
       "Single page, responsive application made to showcase my programming projects. The website shows my interest in creating CSS animations and was an opportunity to practice my React.js skills. It also gave me a space to learn Tailwind CSS.",
-    image: "/projects/project-dev-portfolio.jpg",
+    image: dev_portfolio_img,
     tags: ["React.js", "Vite", "Tailwind", "CSS animations"],
     link: "#",
     github: "https://github.com/LetItBeMonia/monika-kulig",
   },
   {
+    title: "Calculator",
+    description:
+      "An interactive application with a glassmorphism-based UI and a dual-part display. Featuring arithmetic operations, such as addition, subtraction, multiplication, division, exponentiation, modulo, and square root calculations.",
+    image: calculator_img,
+    tags: ["TypeScript", "HTML5", "CSS3"],
+    link: "#",
+    github: "https://github.com/LetItBeMonia/Calculator",
+  },
+  {
     title: "Companies Web Catalog",
     description:
       "Full-stack web application for browsing and managing a catalog of companies, featuring user registration and authentication, search functionality, filtering, sorting, pagination and file uploads. The project demonstrates the use of MVC architecture, session management, REST API implementation, middleware, routing, dynamic templates, server creation and non-relational database integration.",
-    image: "/projects/project-company-catalog.jpg",
+    image: company_catalog_img,
     tags: [
       "JavaScript",
       "NodeJS",
