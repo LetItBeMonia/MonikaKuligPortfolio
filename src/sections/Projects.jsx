@@ -8,7 +8,7 @@ import company_catalog_img from "../assets/projects/project-company-catalog.jpg"
 const projects = [
   {
     title: "Coming soon...",
-    description: "Archery e-commerce application with CMS system.",
+    description: "Archery e-commerce shop.",
     image: next_project_img,
     tags: ["React.js", "JavaScript", "Node.js", "SCSS"],
     link: "#",
